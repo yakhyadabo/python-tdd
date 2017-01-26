@@ -1,7 +1,8 @@
 import unittest
-from calculator import Calculator
 
-class MyTest(unittest.TestCase):
+from src.calculator import Calculator
+
+class CalculatorTest(unittest.TestCase):
 
     def setUp(self):
         print 'Setup method'
