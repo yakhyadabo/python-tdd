@@ -32,5 +32,15 @@ class CalculatorTest(unittest.TestCase):
         self.assertRaises(ValueError, c.div, 3,0)
 
 
+    def test_fact_zero(self):
+        c = Calculator()
+        self.assertEqual(c.fact(0),1)
+        
+
+    def test_fact_4(self):
+        c = Calculator()
+        self.assertEqual(c.fact(4),24)
+        
+
 if __name__ == '__main__':
       unittest.main()
