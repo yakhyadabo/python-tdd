@@ -1,0 +1,23 @@
+{
+  "name":"Phoenix Project",
+  "users": [
+    {
+      "id": "0000",
+      "role": "Developer",
+      "isinternal": "1"
+    },
+    {
+      "id": "1111",
+      "role": "Designer",
+      "isinternal": "1"
+    }
+  ],
+    "company": {
+      "id": "00ddrww",
+      "name": "Zeta Ltd"
+    },
+    "client": {
+      "id": "vxllddr",
+      "name": "valore"
+    }
+}
