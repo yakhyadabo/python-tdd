@@ -2,7 +2,14 @@ class Calculator:
 
     def add(self, x,y):
         return x+y
-    
+
+    def sum(self, *numbers):
+        result = 0
+        for a in numbers:
+            result += a
+
+        return result
+
     def mult(self, x,y):
         return x*y
 

@@ -16,6 +16,10 @@ class CalculatorTest(unittest.TestCase):
         c = Calculator()
         self.assertEqual(c.add(3,1), 4)
 
+    def test_sum(self):
+        c = Calculator()
+        self.assertEqual(c.sum(3,1,3,4,0), 11)
+
 
     def test_mult(self):
         c = Calculator()
