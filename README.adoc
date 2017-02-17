@@ -1,1 +1,19 @@
+=== Class structure 
+TODO
+
+=== Public and private methods
+TODO
+
+
+=== Package management
+TODO
+
+=== Exception 
+TODO
+
+
+=== Testing
 python -m test.test_calculator
+
+TODO
+

@@ -1,4 +1,4 @@
 default: test
 
 test: 
-	python -m test.test_calculator
+	@python -m test.test_calculator
