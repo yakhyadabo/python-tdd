@@ -7,3 +7,6 @@ class StringUtils:
       print "reverse : ", reverse
 
     return reverse.lower() == word.lower()
+
+  def isPalindromeR(self, word):
+    return len(word) <=1 or word[0].lower() == word[len(word)-1].lower() and self.isPalindromeR(word[1:-1])
