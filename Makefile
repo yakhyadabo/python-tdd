@@ -1,4 +1,4 @@
-default: test
+default: run
 
 test: 
 	@python -m test.test_calculator
